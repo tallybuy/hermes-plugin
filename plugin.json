@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tallybuy",
+  "version": "0.1.0",
+  "description": "Compare delivered prices for products in Germany and Austria with Tallybuy. Read-only MCP tools and a shopping skill; no account or key. Shop links are affiliate links.",
+  "author": { "name": "Tallybuy", "url": "https://tallybuy.com" },
+  "homepage": "https://tallybuy.com/developers",
+  "repository": "https://github.com/tallybuy/hermes-plugin",
+  "license": "MIT",
+  "keywords": ["shopping", "price-comparison", "germany", "austria", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": { "tallybuy": { "timeout": 30 } }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Manual alternative to the plugin: add to ~/.hermes/config.yaml, then /reload-mcp.
+# Anonymous: no headers, no key.
+mcp_servers:
+  tallybuy:
+    url: "https://tallybuy.com/mcp"
+    timeout: 30
