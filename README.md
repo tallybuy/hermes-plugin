@@ -17,7 +17,7 @@ Without the plugin, add the server by hand: copy `config.yaml.example` into `~/.
 
 ## What it can do
 
-Six read-only tools:
+Seven read-only tools:
 
 | Tool                | What it returns                                                                    |
 | ------------------- | ---------------------------------------------------------------------------------- |
@@ -27,12 +27,14 @@ Six read-only tools:
 | `list_offers`       | Shop offers for one variant: price, delivery cost, delivered total, seller, time.  |
 | `get_price_history` | Past prices for one variant.                                                       |
 | `compare_items`     | A few variants side by side.                                                       |
+| `list_price_drops`  | Offers whose item price fell below that offer's own previous 30-day low.           |
 
 Example prompts:
 
 - "Where is the Sony WH-1000XM5 cheapest in Germany, delivered?"
 - "Compare these two monitors for delivery to Austria."
 - "Is now a good time to buy this TV, going by its price history?"
+- "Which headphones are priced lower than usual in Germany right now?"
 
 ## How it answers
 
